@@ -7,8 +7,8 @@ int main(int argc, char *argv[])
 
     const QString hostname{"localhost"};
     const quint16 port = 1883;
-    const QMqttTopicName topic{"qtdemosensors/"};
-    const QMqttTopicFilter filter{"qtdemosensors/#"};
+    const QMqttTopicName topic{"inlevelSensors/"};
+    const QMqttTopicFilter filter{"inlevelSensors/#"};
 
     QMqttClient client;
     client.setHostname(hostname);
